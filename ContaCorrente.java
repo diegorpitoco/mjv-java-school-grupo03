@@ -6,7 +6,7 @@ class ContaCorrente{
         saldo = saldo - valor;
     }
 
-    public double transferirParaOutraConta(double valorTransferencia){
+    public double transferirParaOutraConta(int contaDestino, double valorTransferencia){
         return saldo -= valorTransferencia;
     }
 
